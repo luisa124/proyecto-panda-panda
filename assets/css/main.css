@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 0;
+    margin: 0;
+    background-color: #475247;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.li{
+    margin-left: 1%;
+    display: inline-block;
+    padding: 22px;
+    list-style: none;
+    font-size: 20px;
+}
+.a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+.a:hover{
+    color: #03c6c6;
+    font-size: 30px;
+    width: 20%;
+    height: 30px;
+}
+
+.div{
+    margin: 0;
+    background-image: url(../img/anime-fantasy-hd-trunk-bamboo-trees-on-the-pictures-d-346527.jpg);
+    background-repeat: no-repeat;
+    height: 760px;
+    width: 100%;
+}
+img {
+    align-content: center center;
+    width: 230px;
+    height: 230px;
+    margin-left: 6%;
+    margin-top: 8%;
+    border: blue 75px solid;
+    border-image-source: url("../img/marco_200.png");
+    border-image-slice: 75;
+    text-align: justify; 
+}
+#patito {
+    border-image-source: url("../img/marco_200.png");
+    height: 350px;
+    width: 35%;
+    border-image-slice: 75px;
+}
+
+.btn {
+    background-color: #0f980f;
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+.btn a {
+    color: white;
+}
+
+.parrafos {
+    margin-top: 5%;
+    color: white;
+}
+.clase {
+    font-size: 18px;
+}
+.class2 {
+    
+}
+
+/* .clase1 {
+    color: white;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.clase2 {
+    color: white;
+    margin-left: 2%;
+    margin-top: 3;
+    width: 40%;
+    height: 120px;
+}
+ */
+
+footer{
+    
+    text-align: center;
+    height: 70px;
+    background: #0d0f0d;
+    color: #ffffff;
+    padding-top: 7px;
+}
